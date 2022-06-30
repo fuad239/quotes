@@ -10,7 +10,7 @@ body{
     display: grid;
     place-items: center;
     background: rgb(183, 5, 156);
-    transition: 1s;
+    
 }
 #quoteParent{
     background: #fbfbfb;
@@ -26,7 +26,7 @@ body{
     justify-content: center;
     flex-direction: column;
     margin:10px 0 10px 0;
-    transition: 0.5s;
+    
 }
 #qB{
     border-left:10px solid rgb(183, 5, 156);
@@ -35,7 +35,7 @@ body{
    padding:50px ;
    margin:10px 10px 10px 0;
    transition: 1s;
-   transition-delay: 0.5s;
+   
 }
 button{
     padding: 8px;
@@ -49,6 +49,6 @@ button{
     margin-top: 19rem;
     transition: 1s;
 }
-/* body , #quoteParent , #button {
+body , #quoteParent , #button {
     transition: 0.8s;
-} */
+}
