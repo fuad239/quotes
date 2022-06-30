@@ -49,6 +49,6 @@ button{
     margin-top: 19rem;
     transition: 1s;
 }
-body , #quoteParent , #button , #qB{
+body ,  #button , #qB{
     transition: 0.8s;
 }
