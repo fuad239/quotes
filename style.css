@@ -34,7 +34,7 @@ body{
     background-color: #fbfbfb;
    padding:50px ;
    margin:10px 10px 10px 0;
-   transition: 1s;
+  
    
 }
 button{
@@ -49,6 +49,6 @@ button{
     margin-top: 19rem;
     transition: 1s;
 }
-body , #quoteParent , #button {
+body , #quoteParent , #button , #qB{
     transition: 0.8s;
 }
