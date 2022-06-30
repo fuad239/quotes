@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+body{
+    display: grid;
+    place-items: center;
+    background: rgb(183, 5, 156);
+    transition: 1s;
+}
+#quoteParent{
+    background: #fbfbfb;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    color: rgb(183, 5, 156);
+    font-size: larger;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:10px 0 10px 0;
+    transition: 0.5s;
+}
+#qB{
+    border-left:10px solid rgb(183, 5, 156);
+    width: 400px;
+    background-color: #fbfbfb;
+   padding:50px ;
+   margin:10px 10px 10px 0;
+   transition: 1s;
+   transition-delay: 0.5s;
+}
+button{
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(183, 5, 156);
+    font-weight: 700;
+    color: white;
+    position:fixed;
+    margin-top: 19rem;
+    transition: 1s;
+}
+/* body , #quoteParent , #button {
+    transition: 0.8s;
+} */
